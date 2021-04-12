@@ -7,11 +7,12 @@ public class GravityShoes : MonoBehaviour
     [SerializeField] private Rigidbody playerRigidBody;
     [SerializeField] private Transform playerTransform;
     void Start() {
-        // gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     void Update(){
         if (Input.GetButtonDown("Fire2")){
+            // testing ATM
             rotatePlayer();
         } else if(Input.GetButtonUp("Fire2")){
 
